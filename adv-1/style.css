@@ -46,7 +46,7 @@ img.play_video {
 }
 
 /* Botões */
-a.watch_btn, a.watch_btn2 {
+a.watch_btn {
     cursor: pointer;
     border: none;
     outline: none;
@@ -68,15 +68,8 @@ a.watch_btn, a.watch_btn2 {
     font-size: 24px;
 }
 
-/* Botão alternativo */
-a.watch_btn2 {
-    color: #f6f9fe;
-    background-color: rgb(67, 104, 224);
-    font-size: 24px;
-}
-
 /* Conteúdo do parágrafo */
-.para_content {
+.content {
     width: 80%;
     margin: 0 auto;
     font-size: 20px;
@@ -110,7 +103,7 @@ a.watch_btn2 {
 /* Responsividade para dispositivos móveis */
 @media (max-width: 768px) {
     #wrapper {
-        width: 90%;
+        width: 95%;
     }
 
     h1.main_headline {
@@ -122,12 +115,12 @@ a.watch_btn2 {
         width: 98%;
     }
 
-    a.watch_btn, a.watch_btn2 {
-        width: 100%;
+    a.watch_btn {
+        width: 90%;
         font-size: 22px;
     }
 
-    .para_content {
+    .content {
         width: 90%;
     }
 
